@@ -1,12 +1,14 @@
 import './App.css'
-import Todo from './components/Single/Todo'
-import CG from './components/Single/cg'
+import SingleTodo from './components/Single/Todo'
+import SingleCg from './components/Single/cg'
+import TwoCg from './components/Two/cg'
 
 function App() {
   return (
     <>
-      <Todo />
-      {/* <CG /> */}
+      {/* <SingleTodo /> */}
+      {/* <SingleCg /> */}
+      <TwoCg />
     </>
   )
 }
